@@ -1,0 +1,73 @@
+.MainComp3 {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+}
+.forh1tag3 {
+  background: linear-gradient(
+    100deg,
+    rgb(27, 231, 129),
+    rgb(140, 177, 155) 60%,
+    rgb(0, 255, 106)
+  );
+  text-align: center;
+}
+.h1tag3 {
+  color: white;
+  width: 100vw;
+  height: 10vh;
+  /* text-shadow: 0 0 5px #2bda42, 0 0 8px #010107; */
+  font-size: 2em;
+  color: white;
+  font-style: bold;
+  text-shadow: 0 0 6px #15d335, 0 0 8px #02020e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 2%; */
+}
+@media (min-width: 544px) {
+  .h1tag3 {
+    font-size: 2.2em;
+    /* margin-top: 2.1%; */
+  } /*1rem = 16px*/
+}
+@media (min-width: 768px) {
+  .h1tag3 {
+    font-size: 2.5em;
+  } /*1rem = 16px*/
+}
+@media (min-width: 992px) {
+  .h1tag3 {
+    font-size: 2.7em;
+  } /*1rem = 16px*/
+}
+@media (min-width: 1200px) {
+  .h1tag3 {
+    font-size: 3em;
+  } /*1rem = 16px*/
+}
+
+.btns3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 40vh;
+}
+
+.btntext3 {
+  font-size: 5vh;
+}
+#btns3 {
+  background: linear-gradient(rgb(79, 190, 79), black);
+  border-radius: 20px;
+  cursor: pointer;
+  -webkit-box-shadow: 10px 13px 25px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 13px 25px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 13px 25px 0px rgba(0, 0, 0, 0.75);
+}
+#btns3:hover {
+  transform: scale(1.3);
+  transition: transform 1s;
+
+  background-color: #4ed35f;
+}

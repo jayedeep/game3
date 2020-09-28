@@ -1,0 +1,59 @@
+.mainH13 {
+  color: white;
+  /* text-shadow: 0 0 5px #2bda42, 0 0 8px #010107; */
+  font-size: 2em;
+  font-style: bold;
+  text-shadow: 0 0 6px #4e15d3, 0 0 8px #02020e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 2%; */
+}
+@media (min-width: 544px) {
+  .mainH13 {
+    font-size: 2.2em;
+    /* margin-top: 2.1%; */
+  } /*1rem = 16px*/
+}
+@media (min-width: 768px) {
+  .mainH13 {
+    font-size: 2.5em;
+  } /*1rem = 16px*/
+}
+@media (min-width: 992px) {
+  .mainH13 {
+    font-size: 2.7em;
+  } /*1rem = 16px*/
+}
+@media (min-width: 1200px) {
+  .mainH13 {
+    font-size: 3em;
+  } /*1rem = 16px*/
+}
+
+.btnsstext3 {
+  font-size: 4vh;
+}
+#in3 {
+  background: linear-gradient(rgb(128, 46, 131), black);
+  border-radius: 25%;
+  cursor: pointer;
+  -webkit-box-shadow: 10px 13px 25px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 13px 25px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 13px 25px 0px rgba(0, 0, 0, 0.75);
+}
+#in3:hover {
+  transform: scale(1.1);
+  transition: transform 1s;
+
+  background-color: #4ed35f;
+}
+
+.ForLoader3 {
+  display: flex;
+  justify-content: start;
+}
+
+.MainLogic3 {
+  margin-top: 12vh;
+}
